@@ -23,7 +23,7 @@ int main() {
     cout << " apples in stock"
     << endl;
     cout << "Apples are currently $";
-    cout << totalPrice << " each."
+    cout << pricePerApple << " each."
     << endl;
     cout << "If you want them all, that will be $" << totalPrice
     << endl; 
