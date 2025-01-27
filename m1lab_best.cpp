@@ -9,15 +9,15 @@ using namespace std;
 int main() {
     // This program will simulate an apple orchard. 
     // Cat Best
-    string name = "Cat"
+    string name = "Cat";
     // Number of apples owned
-    int apples = 100
+    int apples = 100;
     // Price per apple
-    double pricePerApple = 0.25
+    double pricePerApple = 0.25;
 
-    double totalPrice = (double) apples * pricePerApple
+    double totalPrice = (double) apples * pricePerApple;
     cout << "Welcome to " << name;
-    cout << " 's apple orchard."
+    cout << "'s apple orchard."
     << endl;
     cout << "We have " << apples;
     cout << " apples in stock"
