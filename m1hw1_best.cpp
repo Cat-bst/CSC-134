@@ -10,9 +10,9 @@ int main() {
     // This program will simulate da movie. 
     // Cat Best
     string name = "Star Wars: Episode 1 - The Phantom Menace";
-    // Number of apples owned
+    // Movie name
     int movie = 1999;
-    // Price per apple
+    // When it came out
     double gross = 924;
 
 
@@ -25,9 +25,9 @@ int main() {
     cout << endl;
     cout << "One thing I like about the movie is that it gives background information on Anakins character.";
     cout << endl; 
-    cout << "A quote from the movie I like is, \"Fear is a path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.\" ";
+    cout << "A quote from the movie I like is, \"Fear is a path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.\"";
     cout << endl; 
-    cout << "Here are a couple more quotes from the movie I find interesting: \"You can't stop change any more than you can stop the suns from setting.\"";
+    cout << "Here are a couple more quotes from the movie I find interesting: \"You can't stop change any more than you can stop the suns from setting.\" ";
     cout << "\"I was not elected to watch my people suffer and die while you discuss this invasion in a committee.\" Padme is one of my favorite characters, so I like this quote a lot.";
     cout << endl;
 }
