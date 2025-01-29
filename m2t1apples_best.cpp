@@ -7,13 +7,13 @@
 
 using namespace std;
 
-int main ()
+int main()
 { 
     string name = "Cat";
-    int numApples = 10;
+    int numApples = 100;
     double pricePerApple = 0.25;
 
-    cout << "What is your name?" << endl;
+    cout << "What is your name? " << endl;
     cin >> name;
     cout << "How many apples are for sale?" << endl;
     cin >> numApples;
