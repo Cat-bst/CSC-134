@@ -5,8 +5,8 @@ using namespace std;
 int main()
 { 
     
-    string school = FTCC;
-    int team = Trojans;
+    string school = "FTCC";
+    string team = "Trojans";
  
    
 
