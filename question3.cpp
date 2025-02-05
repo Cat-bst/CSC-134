@@ -11,21 +11,19 @@ int main()
 { 
     
     int numofpizzas = 3;
-    int slicesperpizza =25;
-    int numofvisitors = 50;
+    int slicesperpizza = 8;
+    int numofvisitors = 18;
    
 
     cout << "How many pizzas do you want to order? " << endl;
     cin >> numofpizzas;
     cout << "How many slices do you want each pizza to have?" << endl;
-    cin >> startingbalance;
+    cin >> slicesperpizza;
     cout << "How many visitors are coming?" << endl; 
-    cin >> amountofdeposit;
+    cin >> numofvisitors;
    
 
-    cout << "The name on the account is " << name << endl;
-    cout << "The account number is " << accountnum << endl;
-    cout << "Your financial account balance is $" << startingbalance + amountofdeposit - amountwithdrawl << endl;
+    cout << "There will be " << numofpizzas * slicesperpizza - numofvisitors << " slices of pizza leftover." << endl;
 
     return 0;
 }
