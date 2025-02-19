@@ -24,6 +24,11 @@ int main() {
     cout << "What's the width of the second rectangle? ";
     cin >> wid2;
 
+    area1 = wid1 * len1;
+    area2 = wid2 * len2;
+
+    cout << "Rectangle one has an area of " << area1 << endl;
+    cout << "Rectangle two has an area of " << area2 << endl;
     
     return 0;
 }
