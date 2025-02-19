@@ -11,7 +11,7 @@ int main()
 { 
     string name = "Cat";
     int startingbalance = 100;
-    double amountofdeposit =25;
+    double amountofdeposit = 25;
     int amountwithdrawl = 50;
     int accountnum = 1031;
     cout << "What is your name? " << endl;

@@ -21,6 +21,8 @@ int main()
    charge,
    profit;
 
+   cout << setprecision(2) << fixed << showpoint; 
+
    cout <<"Enter the dimensions of the crate (in feet):\n";
    cout << "Length: ";
    cin >> length; 
@@ -30,8 +32,8 @@ int main()
    cin >> height;
 
   volume = length * width * height;
-  cost = volume * COST_PER_CUBIC_FOOT;
-  charge = volume * CHARGE_PER_CUBIC_FOOT;
+  cost = volume * 0.3;
+  charge = volume * 0.52;
   profit = charge - cost; 
 
    cout << "The volume of the crate is: ";
