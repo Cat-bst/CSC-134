@@ -7,24 +7,27 @@
 #include <iostream>
 using namespace std;
 
-void chooseoption1();
-void chooseoption2();
+
+
+
+void chooseoptionyes();
+void chooseoptionno();
 
 int main() {
   
   
 
-  int choice; 
+  string choice; 
 
   cout << "Hello, I'm a C++ program!" << endl;
-  cout << "Do you like me? Please type yes or no"; 
+  cout << "Do you like me? Please type yes or no" << endl; 
   cin >> choice;
 
-  if ("Yes" == choice) {
-    chooseoption1();
+  if ("yes" == choice) {
+    chooseoptionyes();
   }
-  else if ("No" == choice) { 
-    chooseoption2();
+  else if ("no" == choice) { 
+    chooseoptionno();
   }
   else {
     cout << "If you're not sure, that's okay." << endl;
@@ -35,15 +38,15 @@ int main() {
 
 } 
 
-void chooseoption1() {
+void chooseoptionyes() {
   
   cout << "That's great I'm sure we'll get along!" << endl;
   
 }
 
-void chooseoption2() {
+void chooseoptionno() {
   
-  cout << "Well maybe you'll learn to like me later." << endl;
+  cout << "Well, maybe you'll learn to like me later." << endl;
   
 }
 
