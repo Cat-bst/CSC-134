@@ -17,8 +17,8 @@ void victory() {
 }
 
 void secondChoice() {
-    cout << "There's a blizzard, and you're stranded in the middle of a dense forest. You come accross a cave." << endl;
-    cout << "Do you choose to keep walking until you find your way out (1) or do you enter the cave? (2)?" << endl;
+    cout << "You enter the cave and are shielded from the harsh weather." << endl;
+    cout << "Do you leave the cave and risk hypothermia (1) or stay (2)?" << endl;
     int choice;
     cin >> choice;
 
@@ -27,13 +27,13 @@ void secondChoice() {
     } else if (choice == 2) {
         victory();
     } else {
-        cout << "Invalid choice. Game over." << endl;
+        cout << "Invalid choice. Game over!" << endl;
     }
 }
 
 void firstChoice() {
-    cout << "You enter the cave and are shielded from the harsh weather." << endl;
-    cout << "Do you choose to explore the forest (1) or stay in the cave? (2)?" << endl;
+    cout << "There's a blizzard, and you're stranded in the middle of a dense forest. You come accross a cave." << endl;
+    cout << "Do you enter the cave (1) or do you keep walking until you find your way out? (2)?" << endl;
     int choice;
     cin >> choice;
 
@@ -42,7 +42,7 @@ void firstChoice() {
     } else if (choice == 2) {
         gameOver();
     } else {
-        cout << "Invalid choice. Game over." << endl;
+        cout << "Invalid choice. Game over!" << endl;
     }
 }
 
