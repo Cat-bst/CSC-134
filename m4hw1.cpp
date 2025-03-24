@@ -1,7 +1,7 @@
 // CSC 134
 // Cat Best
 // 3/19/2025
-// M4HW1
+// M4HW1 Bronze
 
 
 #include <iostream>
@@ -12,11 +12,11 @@ int main() {
     int firstNum, answer;
     firstNum = 5;
 
-    int i = 1; // Initialize the counter
-    while (i <= 12) { // Loop until i reaches 12
+    int i = 1; 
+    while (i <= 12) { 
         answer = firstNum * i;
         cout << firstNum << " times " << i << " is " << answer << endl;
-        i++; // Increment the counter
+        i++; 
     }
 
     return 0;
